@@ -15,13 +15,13 @@ import com.matheus.f.n.pereira.aprendaingles.R;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class VogaisFragment extends Fragment implements View.OnClickListener{
+public class AlfabetoFragment extends Fragment implements View.OnClickListener{
 
     private ImageButton buttonA, buttonB, buttonC, buttonD, buttonE, buttonF;
 
     private MediaPlayer mediaPlayer;
 
-    public VogaisFragment() {
+    public AlfabetoFragment() {
         // Required empty public constructor
     }
 
@@ -30,7 +30,7 @@ public class VogaisFragment extends Fragment implements View.OnClickListener{
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View view = inflater.inflate(R.layout.fragment_vogais, container, false);
+        View view = inflater.inflate(R.layout.fragment_alfabeto, container, false);
 
         buttonA = view.findViewById(R.id.buttonA);
         buttonB = view.findViewById(R.id.buttonB);

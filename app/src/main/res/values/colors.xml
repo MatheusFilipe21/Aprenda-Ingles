@@ -4,5 +4,5 @@
     <color name="colorPrimaryDark">#5D4037</color>
     <color name="colorAccent">#A06451</color>
     <color name="fundo_animais">#F5E9B9</color>
-    <color name="fundo_vogais">#F5E9A9</color>
+    <color name="fundo_alfabeto">#F5E9A9</color>
 </resources>
